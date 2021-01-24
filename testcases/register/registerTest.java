@@ -82,7 +82,7 @@ public class registerTest extends AbstractTest{
 	    personEditPage.selectItemInNationalityDropDown("Afghanistan");
 	    personEditPage.selectItemInGenderDropDown("Female");
 	    personEditPage.selectItemInInterestedInDropDown("Debit Account");
-	    Thread.sleep(20000);
+	    Thread.sleep(20000); //wait for input birthday by manual
 	    emailVerifyPage = personEditPage.clickOnSubmitButton();
 	    Thread.sleep(15000);
 	    businessViewPage = emailVerifyPage.inputOTP("1234");
