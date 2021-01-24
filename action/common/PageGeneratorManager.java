@@ -2,7 +2,6 @@ package common;
 
 import org.openqa.selenium.WebDriver;
 
-import pageObjects.BusinessDetailPageObject;
 import pageObjects.BusinessViewPageObject;
 import pageObjects.CompletePageObject;
 import pageObjects.EmailVerificationPageObject;
@@ -20,9 +19,7 @@ public class PageGeneratorManager {
 	public static LoginPageObject getLoginPage(WebDriver driver) {
 		return new LoginPageObject(driver);
 	}
-	public static BusinessDetailPageObject getBusinessDetailPage(WebDriver driver) {
-		return new BusinessDetailPageObject(driver);
-	}
+
 	public static EmailVerificationPageObject getEmailVerificationPage(WebDriver driver){
 		return new EmailVerificationPageObject(driver);
 	}
