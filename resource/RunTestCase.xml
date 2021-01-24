@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+   <parameter name="url" value="https://feature-qa.customer-frontend.staging.aspireapp.com/sg/"></parameter> 
+	<test name="Run on firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="register.registerTest"/>  
+		</classes>
+	</test>
+</suite> <!-- Suite -->
